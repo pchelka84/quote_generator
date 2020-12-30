@@ -9,8 +9,9 @@ let apiQuotes = [];
 // Show new quote
 function newQuote() {
   // pick a random quote from apiQuotes array
-  const quote = apiQuotes[Math.floor(Math.random() * apiQuotes.length)]
-  authorText.textContent = quote.author;
+  const quote = apiQuotes[Math.floor(Math.random() * apiQuotes.length)];
+  // check if author field is blank || Unknown
+  (!quote.author) ? authorText.textContent = "Unknown" : authorText.textContent = quote.author;
   quoteText.textContent = quote.text;
 }
 

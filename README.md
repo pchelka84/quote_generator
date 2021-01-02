@@ -6,8 +6,8 @@ The app maeks an asyncronoius fetch request to REST API in order to get a quote.
 
 ![About Section](img/quotegenerator.JPG)
 
+A [live version](https://pchelka84.github.io/quote_generator/) of the page.
+
 # DEPENDENCIES
 
 1. https://type.fit/api/quotes
-
-
